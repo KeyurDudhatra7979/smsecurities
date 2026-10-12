@@ -1,1 +1,0 @@
-V12 restrained black + white theme with orange accents. Dark sections restored: OUR PURPOSE, OUR VISION, OUR MISSION, LET'S CONNECT, team and footer. Orange is reserved for buttons, link hovers, highlights, focus indicators and small accents. Responsive typography is retained. Open index.html to preview; test on mobile and desktop before deploying.
