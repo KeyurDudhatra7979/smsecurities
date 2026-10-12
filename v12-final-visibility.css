@@ -1,0 +1,10 @@
+/* V12.2: targeted contrast corrections; preserve orange only for actions and hover. */
+/* Dark narrative and commitment areas */
+.insightCopy p, .insightCopy p *, .trustCards p, .trustCards p * {color:#fff!important;-webkit-text-fill-color:#fff!important;opacity:1!important}
+/* Footer link columns and contact details */
+footer .corporateFooter > div a:not(.brand),footer .corporateFooter > div p,footer .corporateFooter > div h4,footer .corporateFooter > div a:not(.brand) *,footer .corporateFooter > div p *{color:#fff!important;-webkit-text-fill-color:#fff!important;opacity:1!important}
+footer .corporateFooter > div a:not(.brand):hover,footer .corporateFooter > div a:not(.brand):focus-visible,footer .corporateFooter > div a:not(.brand):hover *,footer .corporateFooter > div a:not(.brand):focus-visible *{color:#e85d17!important;-webkit-text-fill-color:#e85d17!important}
+/* Let's Connect phone CTA: white background, black label, orange on hover */
+.contactCopy a.btn.white,.contactCopy a.btn.white span{background:#fff!important;color:#17191d!important;-webkit-text-fill-color:#17191d!important;border-color:#fff!important}
+.contactCopy a.btn.white:hover,.contactCopy a.btn.white:focus-visible,.contactCopy a.btn.white:hover span,.contactCopy a.btn.white:focus-visible span{color:#e85d17!important;-webkit-text-fill-color:#e85d17!important}
+@media(max-width:600px){.contactCopy a.btn.white{font-size:clamp(15px,4vw,17px)!important;min-height:48px;max-width:100%;white-space:normal;text-align:center}}
