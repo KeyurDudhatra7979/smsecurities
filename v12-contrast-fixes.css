@@ -1,0 +1,26 @@
+/* V12.1: consistent typography and high-contrast text across every theme block. */
+:root{--text-main:#17191d;--text-muted:#515760;--accent:#d66a1c}
+/* Header logo: both words always dark on the white navigation bar. */
+.header .brand,.header .brand span,.header .brand b,.header .brand strong{color:#17191d!important;-webkit-text-fill-color:#17191d!important;opacity:1!important;text-shadow:none!important}
+.header .brand span{display:inline-flex!important;align-items:baseline!important;gap:.32em!important;flex-wrap:nowrap!important;white-space:nowrap!important;font-size:clamp(12px,1.05vw,15px)!important;font-weight:700!important;letter-spacing:.015em!important}
+.header .brand b{font-weight:800!important}
+/* Footer logo: both words always light on the black footer. */
+footer .brand,footer .brand span,footer .brand b,footer .brand strong{color:#fff!important;-webkit-text-fill-color:#fff!important;opacity:1!important;text-shadow:none!important}
+footer .brand span{display:inline-flex!important;align-items:baseline!important;gap:.32em!important;white-space:nowrap!important}
+/* Dark feature sections: never mix black text into dark backgrounds. */
+.trust,.statement.orange,.statement.black,.contact,footer{color:#fff!important}
+.trust :is(h1,h2,h3,h4,p,span),.statement.orange :is(h1,h2,h3,h4,p,span),.statement.black :is(h1,h2,h3,h4,p,span),.contactCopy :is(h1,h2,h3,h4,p),footer :is(h1,h2,h3,h4,p){color:#fff!important;-webkit-text-fill-color:currentColor!important}
+.trust .mark,.contact .label{color:#ea8b42!important}
+.trust .mark,.contact .label{-webkit-text-fill-color:currentColor!important}
+.statement.orange a,.statement.black a,.contactCopy a,footer a{color:#17191d!important}
+.statement.orange a:hover,.statement.black a:hover,.contactCopy a:hover,footer a:hover{color:#ea8b42!important}
+/* Light sections: clear dark headings and legible paragraph text. */
+:is(.hero,.about,.services,.serviceDetails,.values,.process,.why,.education,.faq,.ceo,.trustSection) :is(h1,h2,h3,h4){color:#17191d!important}
+:is(.about,.services,.serviceDetails,.values,.process,.why,.education,.faq,.ceo,.trustSection) p{color:#515760!important}
+/* Cards within dark sections retain their own light-background dark text. */
+.contact :is(.contactCard,.enquiryForm),.contact :is(.contactCard,.enquiryForm) :is(h1,h2,h3,h4,p,label,span){color:#242424!important;-webkit-text-fill-color:currentColor!important}
+.contact .enquiryForm :is(input,textarea,select){color:#242424!important;-webkit-text-fill-color:#242424!important}
+/* Avoid mismatched font metrics in headings and logo. */
+h1,h2,h3,h4,.brand{font-family:'Manrope','DM Sans',Arial,sans-serif!important}
+body,button,input,textarea,select{font-family:'DM Sans',Arial,sans-serif!important}
+@media(max-width:600px){.header .brand span{font-size:12px!important;gap:.24em!important}.header .brand{gap:7px!important}}

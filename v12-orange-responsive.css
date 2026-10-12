@@ -1,0 +1,40 @@
+/* V12 restrained accent theme: 80% neutral black/white, 20% orange interactive accents. */
+:root{--orange:#D66A1C;--orange2:#EA8B42;--orange-deep:#AA4C10;--ink:#17191D;--soft:#F6F7F8;--muted:#5D626A;--line:#E3E5E8;--hover-tint:#FFF3E9;--shadow:0 14px 40px rgba(0,0,0,.07)}
+html{font-size:16px;scroll-padding-top:88px}
+body{font-family:'DM Sans',sans-serif!important;color:#242424!important;background:#fff!important;font-size:clamp(15px,1.05vw,17px)!important;line-height:1.65!important;overflow-wrap:break-word}
+h1,h2,h3,h4,.brand{font-family:'Manrope','DM Sans',sans-serif!important;line-height:1.18!important;letter-spacing:-.035em!important}
+.hero h1{font-size:clamp(43px,4.8vw,74px)!important;line-height:1.12!important;letter-spacing:-.055em!important;color:#17191D!important}
+.section h2,.contactCopy h2{font-size:clamp(31px,3.15vw,49px)!important;line-height:1.2!important;letter-spacing:-.04em!important}
+h3,.formHead h3{font-size:clamp(20px,1.7vw,27px)!important;line-height:1.3!important}
+p,.section p,.heroCopy>p,.serviceCard p,.detailCard p,.faqIntro p{font-size:clamp(15px,1.04vw,17px)!important;line-height:1.75!important}
+.heroCopy>p{font-size:clamp(16px,1.18vw,19px)!important;max-width:62ch}
+.links a{font-size:14px!important}.btn,.navBtn,.formSubmit,.textBtn{font-size:clamp(14px,.98vw,16px)!important;font-weight:700!important;min-height:46px;display:inline-flex;align-items:center;justify-content:center;gap:8px}
+.header,.header.scrolled{background:rgba(255,255,255,.97)!important;border-bottom:1px solid #E6E7E9!important}
+.brand,.links a:not(.navBtn){color:#17191D!important}.brand b{color:#17191D!important}
+.links a.active,.links a:not(.navBtn):hover,.hero h1 em,.kicker,.label,.serviceIcon,.textBtn{color:#C65B16!important}
+.links a:not(.navBtn)::after,.kicker span{background:#D66A1C!important}
+.navBtn,.btn.primary,.formSubmit{background:#D66A1C!important;color:#fff!important;border-color:#D66A1C!important;box-shadow:0 8px 20px rgba(214,106,28,.15)!important}
+.navBtn:hover,.btn.primary:hover,.formSubmit:hover{background:#AA4C10!important;border-color:#AA4C10!important}
+.hero{background:linear-gradient(125deg,#fff 15%,#F6F7F8 100%)!important;border-bottom-color:#E6E7E9!important}
+.heroAssurance span{color:#3B4048!important;border-color:#E3E5E8!important}.heroAssurance span:before{color:#D66A1C!important}
+.heroVisual .visualCard{background:linear-gradient(145deg,#FAFAFA,#EDEFF1)!important;border-color:#DFE2E5!important;box-shadow:0 24px 60px rgba(0,0,0,.10)!important}
+.heroVisualEyebrow,.heroVisualCaption{color:#454B52!important}
+/* Restore the original dark corporate blocks. */
+.trust,.team,.statement.orange,.statement.black{background:#181B20!important;color:#fff!important}
+.trustRow,.trustRow p,.trustRow span,.statement.orange h3,.statement.orange p,.statement.orange a,.statement.orange span,.statement.black h3,.statement.black p,.statement.black a,.statement.black span{color:#fff!important}
+.trustRow .mark{color:#EA8B42!important}
+.contact{background:linear-gradient(135deg,#17191D,#30343A)!important;color:#fff!important}
+.contactCopy h2,.contactCopy p{color:#fff!important}.contact .label{color:#EA8B42!important}
+.vision,.serviceDetails,.faq,.trustSection,.process,.values{background:#F6F7F8!important}
+.about,.services,.why,.ceo,.education{background:#fff!important}
+.serviceCard,.detailCard,.whyCard,.processStep,.trustCards,.contactCard,.enquiryForm{border-color:#E3E5E8!important;box-shadow:0 12px 38px rgba(0,0,0,.055)!important}
+.serviceCard:hover,.detailCard:hover,.whyCard:hover{border-color:#D66A1C!important;box-shadow:0 18px 45px rgba(0,0,0,.10)!important}
+.contactCard,.enquiryForm{background:#fff!important;color:#242424!important}
+.enquiryForm input,.enquiryForm textarea,.enquiryForm select{background:#fff!important;border-color:#DDE0E4!important;color:#242424!important}
+.enquiryForm input:focus,.enquiryForm textarea:focus,.enquiryForm select:focus{border-color:#D66A1C!important}
+footer{background:#111317!important;color:#E1E3E6!important}footer a:hover{color:#EA8B42!important}
+.whatsappFloat{background:#D66A1C!important}:focus-visible{outline-color:#D66A1C!important}
+@media(max-width:900px){html{scroll-padding-top:74px}.links.open{background:#fff!important}.links.open a:not(.navBtn){color:#17191D!important}.links.open .navBtn{color:#fff!important}.hero h1{font-size:clamp(39px,6.3vw,60px)!important}.section h2,.contactCopy h2{font-size:clamp(30px,4.2vw,42px)!important}.links.open a{min-height:44px}}
+@media(max-width:600px){html{font-size:15px}body{font-size:15px!important;line-height:1.65!important}.hero h1{font-size:clamp(35px,9vw,48px)!important;line-height:1.16!important;letter-spacing:-.045em!important}.section h2,.contactCopy h2{font-size:clamp(27px,7.3vw,35px)!important;line-height:1.23!important}h3,.formHead h3{font-size:21px!important}p,.section p,.heroCopy>p,.serviceCard p,.detailCard p,.faqIntro p{font-size:15px!important;line-height:1.72!important}.heroCopy>p{font-size:16px!important}.btn,.navBtn,.formSubmit,.textBtn{font-size:15px!important;min-height:46px}.heroAssurance span{font-size:12px!important;line-height:1.4}.heroVisualEyebrow{font-size:10px!important}.heroVisualCaption{font-size:12px!important}.enquiryForm input,.enquiryForm select,.enquiryForm textarea{font-size:16px!important;min-height:44px}.enquiryForm textarea{min-height:100px}.contactCard a,footer a{overflow-wrap:anywhere}}
+@media(max-width:360px){.hero h1{font-size:33px!important}.section h2{font-size:27px!important}.heroAssurance{gap:6px}.heroAssurance span{padding:8px 10px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}}
