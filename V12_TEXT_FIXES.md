@@ -1,0 +1,1 @@
+V12.2 changes: removed WhatsApp explanatory hint; enforced white narrative and trust-card paragraphs; enforced white footer navigation/contact text; contact phone button white background with black text, orange on hover. Responsive mobile phone button.
